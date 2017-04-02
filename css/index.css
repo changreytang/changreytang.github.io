@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400);
+
+body {
+  font-family: 'Raleway';
+}
+
+
+#about {
+  display: none;
+  height: 730px;
+  text-align: left;
+}
+
+#info {
+  padding-top: 44px;
+}
+
+.main {
+  width: 1000px;
+  padding-top: 2.5%;
+}
+
+.width {
+  text-align: right;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.intro > h5 {
+  padding-top: 1%;
+  opacity: 0.5;
+  font-weight: 900;
+  font-size: 20px !important;
+}
+
+.intro > p {
+  line-height: 200%;
+  font-size: 20px;
+  padding-top: 5%;
+  opacity: 0.75;
+  font-family: 'palatino';
+}
+
+.background > h5 {
+  padding-top: 5px;
+}
+
+.background > p {
+  padding-top: 5px;
+  opacity: 0.75;
+  font-family: 'palatino';
+}
+
+.row {
+
+}
+
+.contact-row {
+  height: 105px;
+}
+
+.section-header {
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  letter-spacing: 1px;
+  font-weight:bold;
+  color: #42729b;
+  font-size: 26px !important;
+}
+
+.project-header {
+  font-weight: bold;
+  color: #37474F;
+  opacity: 0.9;
+}
+
+.about > p {
+  text-align: left;
+  line-height: 175%;
+  font-size: 1.15em;
+  padding-top: 5%;
+  opacity: 0.75;
+  font-family: 'palatino';
+  margin: 0;
+  font-size: 19px;
+}
+
+.contact-link {
+  font-size: 1.1em;
+  padding-top: 30px;
+  color: #37474F;
+  opacity: 0.5;
+}
+
+.contact-link:hover {
+  opacity: 1;
+}
+
+.project {
+  background-clip: content-box;
+  padding: 10px;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  transition: all 0.25s ease-in-out;
+}
+
+.background:hover {
+  background: #f0f3f4;
+}
+
+.img-container {
+  padding: 5%;
+  width: 100%;
+  height: 100%;
+}
+
+.tint {
+  background: #37474F;
+  transition: all 0.1s ease-in-out;
+}
+
+.tint:hover {
+  background: #b6c1c9;
+}
+
+.tint-2 {
+  background: #b6c1c9;
+}
+
+.button {
+  padding-top: 20px;
+}
+
+.icon {
+  opacity: 0.75;
+  padding-left: 20px;
+  color: black;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+img {
+  width: 100%;
+  opacity: 0.85;
+  transition: all 0.25s ease-in-out;
+}
+
+img.normal {
+  -webkit-filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.9));
+  opacity: 0.8;
+}
+
+img.logo:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+}
+
+a {
+  color: #60646D;
+  transition: all 0.25s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #42729b;
+  opacity: 1;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: none;
+  cursor: default;
+  color: #60646D;
+}
+
+strong {
+  font-size:18px;
+}
+
+b {
+  color: #42729b;
+}
+
+.resume {
+  border-bottom: 4px solid #B2DFDB;
+  opacity: 0.9;
+}
+
+strong:hover {
+  opacity: 0.9;
+}
+
+.contact-link {
+  font-size: 19px;
+}

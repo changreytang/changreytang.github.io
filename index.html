@@ -1,1 +1,90 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Chang Rey Tang</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="main container">
+
+      <div class="container width">
+        <div class="row">
+          <div class="col-sm-5">
+            <div onclick="self()">
+              <img class="logo" style="width: 225px; cursor: pointer;" src="images/logo.png" />
+            </div>
+            <div class="button">
+            </div>
+            <h3 class="section-header button">
+              <a href="#" onclick="about()">About Me</a>
+            </h3>
+            <h3 class="section-header button">
+              <a href="Resume.pdf">Resume</a>
+            </h3>
+            <h3 class="section-header button">
+              <a href="http://cathodereytube.wordpress.com">Blog</a>
+            </h3>
+            <div style="position: absolute; bottom: 0; right: 0; margin-right: 20px;" class="button">
+            <a class="icon" href="http://instagram.com/reytangular"><i class="fa fa-lg fa-instagram"></i></a>
+            <a class="icon" href="http://soundcloud.com/rey-tang-1"><i class="fa fa-lg fa-soundcloud"></i></a>
+            <a class="icon" href="http://open.spotify.com/user/1224600731"><i class="fa fa-lg fa-spotify"></i></a>
+            <a class="icon" href="http://github.com/changreytang"><i class="fa fa-lg fa-github"></i></a>
+            <a class="icon" href="http://linkedin.com/in/changreytang"><i class="fa fa-lg fa-linkedin"></i></a>
+            <a class="icon" href="mailto:tang.changrey@gmail.com"><i class="fa fa-lg fa-envelope"></i></a>
+          </div>
+          </div>
+          <div class="col-sm-6" id="self">
+              <img class="normal" src="images/self.jpg" />
+          </div>
+          <div class="col-sm-6" id="about">
+              <img class="normal" src="images/friends.jpg" />
+              <div id="info">
+                it look likes you found yourself on my website. <b>welcome!</b></br></br>
+
+                <strong>[ tl;dr on my life ]</strong></br>
+                born in <b>taiwan</b></br>
+                raised in the <b>silicon valley</b></br>
+                computer scientist and musician at <b>ucsb</b></br>
+                incoming software intern for <b>groupon</b></br></br>
+
+                <strong>[ tl;dr on me ]</strong></br>
+                my outlook on life is <b>relentlessly optimistic</b>, cause' who
+                likes a debbie downer? i love <b>music</b>. music events. music
+                composition. music performance. you name it! another thing i love? <b>design</b>. it's the perfect
+                combination of self expression, problem solving, and creativity.
+                last but not least, i really enjoy <b>entrepreneurship</b> and <b>mentorship</b>;
+                hit me up for them start-up ideas.
+                i also recently found a new passion for <b>blogging</b>, so be sure
+                to check that out too!</br></br>
+
+                &larr;&emsp;<b>email me</b> if that tl;dr wasn't enough for you ^_^
+
+              </div>
+          </div>
+
+          <script>
+            function self() {
+              document.getElementById("about").style.display = "none";
+              document.getElementById("self").style.display = "inline";
+              return true;
+            }
+
+            function about() {
+              document.getElementById("about").style.display = "block";
+              document.getElementById("self").style.display = "none";
+              return true;
+            }
+          </script>
+</body>
+</html>
